@@ -10,5 +10,6 @@ TransformerRegistry中的loadTransformerFromLocalStorage方法可以看到会加
 local_storage/transformer/hole_substr
 该目录底下为:
 lib,plugin_job_template.json,transformer.json 2个文件加1个lib目录，lib目录放插件打包jar包
+代码里面有indexcolumn的设定，但是没有使用，json文件要输入，但是形同虚设
 
 然后DataX 运行时加载自定义 transformer 插件。

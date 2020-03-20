@@ -1,0 +1,14 @@
+transformer 自定义实现方法。
+此项目需要依赖datax的子项目core，所以需先导入datax相关代码
+
+datax的源码中有加载本地transformer的代码，具体在
+
+TransformerRegistry中的loadTransformerFromLocalStorage方法可以看到会加载本地
+目录地址为"DATAX_HOME/local_storage/transformer"
+如我写了个hole_substr的插件，目录就应该为:
+local_storage/transformer/hole_substr
+该目录底下为:
+lib,plugin_job_template.json,transformer.json 2个文件加1个lib目录，lib目录放插件打包jar包
+
+然后DataX 运行时加载自定义 transformer 插件。
+

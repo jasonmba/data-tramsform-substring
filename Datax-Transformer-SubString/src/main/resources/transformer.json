@@ -1,0 +1,6 @@
+{
+  "name": "hole_substr",
+  "class": "com.alibaba.datax.transformer.HoleLineSubTransformer",
+  "description": "SubStr All Column",
+  "developer": "guhejun"
+}
